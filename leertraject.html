@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="leertraject.css">
+</head>
+<body>
+    <nav>
+      <ul>
+          <li><a href="learnloop.html">LearnLoop</a></li>
+          <li><a href="leertraject.html">Demo</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+        <h1>Demo: Amnesie</h1>
+        <p>Dit is een demo van een leertraject dat hoort bij het vak Leren en Geheugen. Leertrajecten bestaan uit bits met informatie en bits met vragen. Op deze manier kun je op een interactieve manier de stof doorlopen.</p>
+        <div class="segment">
+            <h2>title</h2>
+            <p>content</p>
+            <div class="centered-container">
+                <textarea placeholder="Typ hier uw antwoord..."></textarea>
+                <button class="submit-btn">Indienen</button>
+                <p class="submit-message" style="display:none;"></p>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button id="previousBtn">Vorige</button>
+            <button id="nextBtn">Volgende</button>
+        </div>
+    </div>
+
+    <script src="leertraject.js"></script>
+</body>
+</html>

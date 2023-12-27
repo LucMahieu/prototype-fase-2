@@ -1,0 +1,119 @@
+nav {
+    background-color: #1A1A1A;
+    color: #fff;
+    width: auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px 10px 10px 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: vertical;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1A1A1A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #555;
+
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #1A1A1A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto 15px;
+}
+
+.centered-container .submit-message {
+    margin-top: 10px;
+    color: green;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, tr {
+    border: 1px solid grey;
+    padding: 5px;
+}
